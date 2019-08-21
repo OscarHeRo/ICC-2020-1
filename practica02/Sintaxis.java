@@ -19,6 +19,8 @@ public class Sintaxis {
 		int d = 1 / (a - 3);
 
 		long  var_1 = 2147483648L;
+		char quote = '\''
+		    
 		
 	}
 }
