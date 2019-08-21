@@ -1,0 +1,4 @@
+2. Se imprime 17 dos veces ya que el compilador de java al poner "--x" primero reduce la varible y luego imprime,
+   al poner "x--" imprime y luego reduce la variable.
+   
+3. El tipo de la operación cambia a double por el elemento dividiendoReal, el tipo int permite este cambio sin necesidad de cast, por lo tanto el resultado se presenta en double.
