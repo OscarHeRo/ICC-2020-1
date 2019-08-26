@@ -9,7 +9,7 @@ public class RFC {
 		String fecha;
 
 
-		System.out.println("Itroduce tu nombre completo :");
+		System.out.println("Introduce tu nombre completo :");
 		 nombreCompleto = entrada.nextLine(); 
 
 	    	System.out.println("Introduce tu fecha de nacimiento en formato dd/mma/aaaa :");
