@@ -1,0 +1,24 @@
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10/src/aplicacion$ ls
+Main.java
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10/src/aplicacion$ cd ..
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10/src$ cd ..
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ javac -claspath lib/core.jar -d build src/aplicacion/Main.java
+error: invalid flag: -claspath
+Usage: javac <options> <source files>
+use --help for a list of possible options
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ javac -classpath lib/core.jar -d build src/aplicacion/Main.java
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ java build:lib/core.jar aplicacion.Main
+Error: Could not find or load main class build:lib.core.jar
+Caused by: java.lang.ClassNotFoundException: build:lib.core.jar
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ java build:lib/core.jar aplicacion.Main
+Error: Could not find or load main class build:lib.core.jar
+Caused by: java.lang.ClassNotFoundException: build:lib.core.jar
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ java -cp build:lib/core.jar aplicacion.Main
+javac -classpath lib/core.jar -d build src/aplicacion/Main.java
+java build:lib/core.jar aplicacion.Main
+exit
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ Error: Could not find or load main class build:lib.core.jar
+Caused by: java.lang.ClassNotFoundException: build:lib.core.jar
+tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ tostadadeceviche@tostadadeceviche-WRT-WX9:~/Documents/semestre1/icc/ICC-2020-1/practica10$ exit
+
+Process shell exited abnormally with code 1
