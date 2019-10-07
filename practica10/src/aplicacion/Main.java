@@ -19,7 +19,7 @@ public class Main extends PApplet {
         for(int j = 0; j <= 7; j++){
             //base: cambia el valor en x (donde se empieza la columna), dependiendo si j es par
             int base = (j % 2 == 0) ?  0 : -100;
-            //i genera la columna, 
+            //i genera la fila
             for(int i = 0 ; i <= 4; i++ ){
                 //imprime un cuadrado blanco seguido de uno negro
                 fill(0XFFFFFFFF);		
